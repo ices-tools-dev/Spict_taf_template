@@ -75,3 +75,6 @@ Place the two raw input files in `bootstrap/initial/data/` as described in
   this TAF restructuring.
 - `spictRisk()` in `utilities.R` is ported unchanged from
   `src/spict_functions.R` in the original repository.
+=======
+# Spict_taf_template
+TAF template for the Spict method.

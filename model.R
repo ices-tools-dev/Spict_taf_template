@@ -34,7 +34,7 @@ fit <- hindcast(fit, npeels = nhindcastyears)
 saveRDS(fit, "model/fit.rds")
 
 ## Management scenarios -------------------------------------------------------
-## advice_year follows the AFWG convention: catches run up to last_data_year,
+## this assessment follows the convention: catches run up to "last_data_year",
 ## the assessment is carried out the following year (assessment_year), and
 ## advice is given for the year after that (advice_year).
 catches <- read.taf("data/catches.csv")

@@ -4,15 +4,15 @@
 
 library(icesTAF)
 library(spict)
+library(icesAdvice)
 
 mkdir("report")
 
 fit        <- readRDS("model/fit.rds")
 management <- readRDS("model/management.rds")
 
-## Rounded copies of the output tables for presentation ----------------------
-round_numeric <- function(x, digits = 3) {
-  x[] <- lapply(x, function(col) if (is.numeric(col)) round(col, digits) else col)
+round_numeric <- function(x) {
+  x[] <- lapply(x, function(col) if (is.numeric(col)) icesRound(col) else col)
   x
 }
 
@@ -64,3 +64,4 @@ dev.off()
 taf.png("report/management_scenarios")
 plotspict.hcr(management)
 dev.off()
+

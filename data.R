@@ -8,6 +8,7 @@ library(icesTAF)
 
 mkdir("data")
 
-source("data_catch.R")     # -> data/catches.csv
+source("data_catch.R")       # -> data/catches.csv
 source("data_index.R")       # -> data/index.csv
 source("data_spict_input.R") # -> data/spict_input.rds (ready for fit.spict())
+

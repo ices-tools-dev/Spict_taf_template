@@ -24,8 +24,6 @@ stock, you need to:**
  
 ```text
 .
-├── DESCRIPTION.txt      Analysis metadata
-├── CONTENTS.txt         One-line description of each script
 ├── utilities.R          spictRisk() - shared helper, sourced by output.R
 ├── data.R                 Thin wrapper -> data/catches.csv, data/index.csv, data/spict_input.rds
 ├── data_catches.R         -> data/catches.csv

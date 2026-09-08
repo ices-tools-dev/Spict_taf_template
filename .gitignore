@@ -1,0 +1,11 @@
+# TAF-generated directories - recreated by running data.R/model.R/output.R/report.R
+# (and by TAF::taf.bootstrap() for bootstrap/data/)
+/data/
+/model/
+/output/
+/report/
+/bootstrap/data/
+
+.Rhistory
+.RData
+.Rproj.user/

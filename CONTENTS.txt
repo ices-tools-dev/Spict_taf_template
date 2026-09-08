@@ -1,0 +1,4 @@
+data.R      Thin wrapper: prepare catch, index, and full SPiCT input (data/) - see data_scripts/
+model.R     Fit the SPiCT model, run diagnostics and management scenarios (model/)
+output.R    Extract parameter, reference point, status and catch-advice tables (output/)
+report.R    Produce final report tables and diagnostic/summary plots (report/)

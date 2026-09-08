@@ -25,7 +25,7 @@ stock, you need to:**
 ```text
 .
 ├── utilities.R          spictRisk() - shared helper, sourced by output.R
-├── data.R                 Thin wrapper -> data/catches.csv, data/index.csv, data/spict_input.rds
+├── data.R                 Wrapper script -> data/catches.csv, data/index.csv, data/spict_input.rds
 ├── data_catches.R         -> data/catches.csv
 ├── data_index.R           -> data/index.csv
 ├── data_spict_input.R     -> data/spict_input.rds (ready for fit.spict())
